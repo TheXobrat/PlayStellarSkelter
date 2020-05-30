@@ -7,6 +7,10 @@
     <script>
       UnityLoader.instantiate("unityContainer", "Build/PlayStellarSkelter.json");
     </script>
+	<style>
+		body { margin: 0; padding: 0; }
+		h1 { display: none; }
+	</style>
   </head>
   <body>
     <div id="unityContainer" style="width: 608px; height: 1080px; margin: auto"></div>
