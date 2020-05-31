@@ -8,9 +8,9 @@
       UnityLoader.instantiate("unityContainer", "Build/PlayStellarSkelter.json");
     </script>
 	<script>
-		let container = document.getElementsByTagName("body")[0];
+		var container = document.getElementsByTagName("body")[0];
 
-		document.addEventListener("onkeydown", function(e){ 
+		document.addEventListener("keydown", function(e){ 
 			if (e.which == 70 || e.keyCode == 70) {
 				container.classList.toggle("rotate");
 			}
@@ -19,7 +19,7 @@
 	<style>
 		body { 
 			background: #222; 
-			margin: 0; margin-top: -29.6%
+			margin: 0; margin-top: -29.6%;
 			padding: 0; 
 			transform: scale(0.563);
 			overflow: hidden; 
