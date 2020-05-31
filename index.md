@@ -10,10 +10,10 @@
 	<style>
 		body { background: #222; margin: 0; padding: 0; max-height: 1080px; overflow: hidden; }
 		h1 { display: none; }
-		.my-5 { max-width: 608px !important; margin-top: 0 !important; margin-botton: 0 !important; }
+		.my-5 { transform: rotate(90deg); max-width: 608px !important; margin-top: 0 !important; margin-botton: 0 !important; }
 	</style>
   </head>
   <body>
-    <div id="unityContainer" style="width: 608px; height: 1080px; margin: auto"></div>
+    <div id="unityContainer" style="width: 1080px; height: 1920px; margin: auto"></div>
   </body>
 </html>
