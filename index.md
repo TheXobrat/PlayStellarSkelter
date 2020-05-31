@@ -7,19 +7,30 @@
     <script>
       UnityLoader.instantiate("unityContainer", "Build/PlayStellarSkelter.json");
     </script>
+	<script>
+		let container = document.getElementsByTagName("body")[0];
+
+		document.addEventListener("onkeydown", function(e){ if (e.which == 70 || e.keyCode == 70) {
+		  container.classList.toggle("rotate");
+		});
+	</script>
 	<style>
 		body { 
 			background: #222; 
-			margin: 0; 
+			margin: 0; margin-top: -29.6%
 			padding: 0; 
-			max-height: 1080px; 
+			transform: scale(0.563);
 			overflow: hidden; 
 		}
+			body.rotate { 
+				margin-top: -50%;
+				transform: scale(1) rotate(90deg); 
+			}
+				body.rotate .my-5 { width: 0; }
 		h1 { display: none; }
 		.my-5 { 
-			transform: rotate(90deg); 
-			width: 0; 
-			margin-top: -50% !important; 
+			margin-top: 0 !important; margin-bottom: 0 !important;
+			padding: 0 !important;
 		}
 	</style>
   </head>
