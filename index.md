@@ -10,8 +10,10 @@
 	<script>
 		let container = document.getElementsByTagName("body")[0];
 
-		document.addEventListener("onkeydown", function(e){ if (e.which == 70 || e.keyCode == 70) {
-		  container.classList.toggle("rotate");
+		document.addEventListener("onkeydown", function(e){ 
+			if (e.which == 70 || e.keyCode == 70) {
+				container.classList.toggle("rotate");
+			}
 		});
 	</script>
 	<style>
