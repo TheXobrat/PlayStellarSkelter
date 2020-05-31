@@ -8,9 +8,19 @@
       UnityLoader.instantiate("unityContainer", "Build/PlayStellarSkelter.json");
     </script>
 	<style>
-		body { background: #222; margin: 0; padding: 0; max-height: 1080px; overflow: hidden; }
+		body { 
+			background: #222; 
+			margin: 0; 
+			padding: 0; 
+			max-height: 1080px; 
+			overflow: hidden; 
+		}
 		h1 { display: none; }
-		.my-5 { transform: rotate(90deg); max-width: 608px !important; margin-top: 0 !important; margin-botton: 0 !important; }
+		.my-5 { 
+			transform: rotate(90deg); 
+			width: 0; 
+			margin-top: -50% !important; 
+		}
 	</style>
   </head>
   <body>
