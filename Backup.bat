@@ -39,6 +39,7 @@ cls
 
 echo Pushing commit to https://www.github.com/TheXobrat/%CurDir%...
 cd /D D:\%CurDir%
+git pull --set-upstream origin master
 git push origin master
 echo Commit successfully pushed to https://www.github.com/TheXobrat/%CurDir%! Press any key to exit...
 pause >nul
