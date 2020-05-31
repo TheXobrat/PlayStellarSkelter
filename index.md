@@ -19,7 +19,7 @@
 	<style>
 		body { 
 			background: #222; 
-			margin: 0; margin-top: -29.6%;
+			margin: 0; margin-top: -420px;
 			padding: 0; 
 			transform: scale(0.563);
 			overflow: hidden; 
